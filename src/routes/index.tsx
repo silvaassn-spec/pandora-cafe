@@ -16,13 +16,13 @@ import {
 
 import heroCoffee from "@/assets/hero-coffee.jpg";
 import essenceBeans from "@/assets/essence-beans.jpg";
-import menuCappuccino from "@/assets/menu-cappuccino.jpg";
-import menuAmericano from "@/assets/menu-americano.jpg";
-import menuMuffin from "@/assets/menu-muffin.jpg";
-import menuMokaccino from "@/assets/menu-mokaccino.jpg";
-import galleryLaptops from "@/assets/gallery-laptops.jpg";
+import menuCappuccino from "@/assets/capuchino.jpg";
+import menuAmericano from "@/assets/expreso.jpg";
+import menuMuffin from "@/assets/muffin.jpg";
+import menuMokaccino from "@/assets/mokaccino.jpg";
+import galleryLaptops from "@/assets/laptops.jpg";
 import galleryPour from "@/assets/gallery-pour.jpg";
-import galleryInterior from "@/assets/gallery-interior.jpg";
+import galleryInterior from "@/interior.jpg";
 import galleryPastries from "@/assets/gallery-pastries.jpg";
 import { useReveal } from "@/hooks/use-reveal";
 
