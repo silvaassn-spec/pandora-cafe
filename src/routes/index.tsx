@@ -22,7 +22,7 @@ import menuMuffin from "@/assets/muffin.jpg";
 import menuMokaccino from "@/assets/mokaccino.jpg";
 import galleryLaptops from "@/assets/laptops.jpg";
 import galleryPour from "@/assets/gallery-pour.jpg";
-import galleryInterior from "@/interior.jpg";
+import galleryInterior from "@/assets/interior.jpg";
 import galleryPastries from "@/assets/gallery-pastries.jpg";
 import { useReveal } from "@/hooks/use-reveal";
 
