@@ -236,7 +236,15 @@ function Landing() {
                   className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-2xl"
                   style={{ backgroundColor: "var(--cream)" }}
                 >
-                  <c.icon className="h-5 w-5 text-coffee" style={{ color: "var(--coffee)" }} />
+                  {(() => {
+                    const Icon = c.icon;
+                    return (
+                      <Icon
+                      className="h-5 w-5 text-coffee"
+                      style={{ color: "var(--coffee)" }}
+                      />
+                    );
+                  })()}
                 </div>
                 <h3 className="font-display text-2xl">{c.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -563,7 +571,23 @@ function Landing() {
           </div>
         </div>
         <div className="mx-auto mt-14 max-w-6xl border-t border-white/10 px-6 pt-6 text-xs text-white/40">
+          <span>
           © {new Date().getFullYear()} Pandora Café · Rivera, Uruguay
+          </span>
+
+
+        
+          <span>
+            Diseñado y Desarrollado por{" "}
+            <a
+              href="https://instagram.com/silvaassn"
+              target="_blank"
+              rel="noreferrer"
+              className="text-accent hover:underline"
+            >
+                @silvaassn
+              </a>
+          </span>
         </div>
       </footer>
     </div>
