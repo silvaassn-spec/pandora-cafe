@@ -570,7 +570,7 @@ function Landing() {
             </ul>
           </div>
         </div>
-        <div className="mx-auto mt-14 max-w-6xl border-t border-white/10 px-6 pt-6 text-xs text-white/40">
+        <div className="mx-auto mt-14 max-w-6xl border-t border-white/10 px-6 pt-6 text-xs text-white/40 flex flex-col gap-2 md:flex-row md:justify-between">
           <span>
           © {new Date().getFullYear()} Pandora Café · Rivera, Uruguay
           </span>
